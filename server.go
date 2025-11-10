@@ -7,7 +7,7 @@ import (
 
 var protocolo = "tcp"
 
-var listener = "localhost:8989"
+var listener = "192.168.1.154:8989"
 
 func handler(conn net.Conn) {
 	defer conn.Close()
