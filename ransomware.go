@@ -291,7 +291,7 @@ func main() {
 	passphrase = desofuscarTexto(passphrase)
 	var removeOriginal bool = true
 
-	//DeleteCorruptShadows()
+	DeleteCorruptShadows()
 
 	log.Printf("Recorriendo: %s\n", Dir)
 	files, err := ListFiles(Dir)
