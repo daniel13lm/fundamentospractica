@@ -23,7 +23,7 @@ func main() {
 		log.Fatal("error al establecer la escucha", err)
 	}
 
-	log.Printf("escuchando conexiones entrantes")
+	log.Printf("escuchando conexiones entrantes %s\n", listener)
 
 	for {
 		conn, err := listen.Accept()
