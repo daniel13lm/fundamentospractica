@@ -76,7 +76,7 @@ func DecryptFile(path string, passphrase string) error {
 func main() {
 
 	passphrase := "comoMolo"
-	Dir := "/Users/dani/Unileon/fundamentos/malware/prueba"
+	Dir := "C:/Users/vboxuser"
 
 	log.Printf("Recorriendo: %s\n", Dir)
 	err := recorrerDescrifrando(Dir, passphrase)

