@@ -128,7 +128,7 @@ func DeleteCorruptShadows() {
 		cmd := exec.Command(vssadmin, delete, shadows, all, quiet)
 		out, e2 := cmd.CombinedOutput()
 		if e2 != nil {
-			log.Fatalf("No se pudo eliminar con al: %v - output: %s", e2, string(out))
+			log.Println("No se pudo eliminar con al: %v - output: %s", e2, string(out))
 		}
 		log.Println("Se eliminaron todas las som (al) correctamente.")
 		return
